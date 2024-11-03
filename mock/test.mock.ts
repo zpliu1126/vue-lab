@@ -4,15 +4,16 @@
  * @Author: zpliu
  * @Date: 2024-11-02 09:53:34
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-02 17:56:34
+ * @LastEditTime: 2024-11-03 11:40:27
  * @@param:
  */
 import { MockMethod } from 'vite-plugin-mock'
+
 export default [
   {
-    url: '/api/carousl/info',
+    url: '/dist/api/carousl/info',
     method: 'get',
-    response: ({ query }) => {
+    response: () => {
       return {
         code: 0,
         data: {

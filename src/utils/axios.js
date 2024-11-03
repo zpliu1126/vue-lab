@@ -1,7 +1,7 @@
 import axios from 'axios'
-
+let baseURL = import.meta.env.VITE_API_DOMAIN
 const request = axios.create({
-  baseURL: '',
+  baseURL: baseURL,
   timeout: 20000
 })
 request.interceptors.request.use(

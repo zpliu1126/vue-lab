@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2024-11-01 21:45:16
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-02 18:50:08
+ * @LastEditTime: 2024-11-03 13:14:23
  * @@param:
  */
 import './assets/main.css'
@@ -17,6 +17,11 @@ import 'element-plus/theme-chalk/display.css'
 
 import App from './App.vue'
 import router from './router'
+if (process.env.NODE_ENV === 'production') {
+  import('@/mockProdServer').then(({ setupProdMockServer }) => {
+    setupProdMockServer()
+  })
+}
 
 const app = createApp(App)
 // app.use(ElementPlus)

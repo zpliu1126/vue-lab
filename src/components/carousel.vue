@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2024-11-01 22:09:15
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-02 17:53:11
+ * @LastEditTime: 2024-11-02 23:57:24
  * @@param: 
 -->
 <template>
@@ -20,7 +20,7 @@
           class="carousel-item-bg"
         >
           <div class="carousel-wraper">
-            <div class="carousel-title">
+            <div class="carousel-title" @click="test">
               <h3 class="carousel-content">
                 {{ item.title }}
               </h3>
@@ -33,17 +33,22 @@
 </template>
 
 <script setup>
-import { ElCarousel, ElCarouselItem, ElImage } from 'element-plus'
+import { ElCarousel, ElCarouselItem, ElImage, ElButton } from 'element-plus'
 import { useCarouslStore } from '../stores/homeStore'
-import tmpimg from '../assets/carousel/carousel-1.png'
 import 'element-plus/es/components/carousel/style/css'
 import { onBeforeMount } from 'vue'
+import { getCarouslInfo } from '../api/carousl'
 // import { storeToRefs } from 'pinia'
 
 const store = useCarouslStore()
 onBeforeMount(() => {
   store.setData()
 })
+function test() {
+  getCarouslInfo().then((res) => {
+    console.log(res)
+  })
+}
 // const carouselInfo = [
 //   {
 //     title: '1111',

@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2024-11-01 21:45:16
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-02 21:52:42
+ * @LastEditTime: 2024-11-03 12:41:11
  * @@param:
  */
 import { fileURLToPath, URL } from 'node:url'
@@ -15,17 +15,17 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/dist',
   plugins: [
     vue(),
     vueDevTools(),
     viteMockServe({
       // default
       mockPath: 'mock',
+      ignore: /^\_/,
       enable: true,
       logger: true,
-      watchFiles: true,
-      injectCode: ` import { setupProdMockServer } from './mockProdServer'; setupProdMockServer(); `,
-      prodEnable: true
+      watchFiles: true
     })
   ],
   resolve: {
