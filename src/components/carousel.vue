@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2024-11-01 22:09:15
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-07 11:15:06
+ * @LastEditTime: 2024-11-07 19:30:52
  * @@param: 
 -->
 <template>
@@ -81,7 +81,9 @@ onBeforeMount(() => {
       border-radius: 8px
       padding: 20px
       max-width: 60%
-      color: red
+      color: white
+      font-size: 25px
+      font-weight: bold
       text-align: center
       background-color: rgba(45, 45, 45, 0.5)
 </style>

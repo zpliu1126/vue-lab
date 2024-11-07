@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2024-11-01 22:44:52
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-05 22:22:39
+ * @LastEditTime: 2024-11-07 18:28:40
  * @@param:
  */
 export const publicationHTML = function (dat, queryName) {
@@ -13,7 +13,10 @@ export const publicationHTML = function (dat, queryName) {
   let firstautorList = dat['firstAuthor']
   let correspindingAuthorList = dat['correspondingAuthor']
   let firstAuthorStr = firstautorList.join('<sup>*</sup>, ') + '<sup>*</sup>, '
-  let correspindingStr = correspindingAuthorList.join('<sup>#</sup>, ') + '<sup >#</sup>. '
+  let correspindingStr =
+    correspindingAuthorList.length == 0
+      ? ''
+      : correspindingAuthorList.join('<sup>#</sup>, ') + '<sup >#</sup>. '
   let otherAuthor = dat['otherAuthor']
   let otherAuthorStr = otherAuthor.join(', ') + ', '
   let title = dat['title']

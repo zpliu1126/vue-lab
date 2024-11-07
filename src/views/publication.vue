@@ -4,27 +4,11 @@
  * @Author: zpliu
  * @Date: 2022-05-13 10:07:54
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-07 15:02:51
+ * @LastEditTime: 2024-11-07 18:55:44
  * @@param: 
 -->
 <template>
   <div>
-    <el-row justify="center" :gutter="10" align="top" class="publication">
-      <el-col :xs="24" :sm="24" :md="4" :lg="4" :xl="4" class="item-title">
-        <h2>{{ FiverYearstore.FiverYears.title }}</h2>
-      </el-col>
-      <el-col :xs="24" :sm="24" :md="16" :lg="16" :xl="16" class="item-content">
-        <ol class="publicationInfo">
-          <li
-            v-for="(item, index) in FiverYearstore.FiverYears.Paper"
-            :key="index"
-            class="publicationItem"
-          >
-            <div v-html="publicationHTML(item)"></div>
-          </li>
-        </ol>
-      </el-col>
-    </el-row>
     <el-row justify="center" :gutter="10" align="top" class="publication">
       <el-col :xs="24" :sm="24" :md="4" :lg="4" :xl="4" class="item-title">
         <h2>{{ FirstAuthorstore.PublicaFirst.title }}</h2>
@@ -65,13 +49,10 @@ import { ElRow, ElCol } from 'element-plus'
 import { ref, onBeforeMount } from 'vue'
 import publicationJson from './publication.json'
 import { publicationHTML } from '@/utils/hightPublication'
-import { usePubliFiverYearStore, usePubliFirstStore, usePubliOtherStore } from '../stores/homeStore'
-// const publications = ref(publicationJson['item'])
-const FiverYearstore = usePubliFiverYearStore()
+import { usePubliFirstStore, usePubliOtherStore } from '../stores/homeStore'
 const FirstAuthorstore = usePubliFirstStore()
 const OtherAuthorstore = usePubliOtherStore()
 onBeforeMount(() => {
-  FiverYearstore.setData()
   FirstAuthorstore.setData()
   OtherAuthorstore.setData()
 })

@@ -4,12 +4,12 @@
  * @Author: zpliu
  * @Date: 2024-11-02 11:32:21
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-06 22:52:25
+ * @LastEditTime: 2024-11-07 18:57:04
  * @@param:
  */
 import { ref } from 'vue'
 import { defineStore } from 'pinia'
-import { getCarouslInfo, getFiverYear, getOtherFirst, getOther } from '../api/carousl'
+import { getCarouslInfo, getFirst, getOther } from '../api/carousl'
 
 export const useCarouslStore = defineStore('carouslList', () => {
   const CarouslInfo = ref([])
@@ -21,22 +21,13 @@ export const useCarouslStore = defineStore('carouslList', () => {
   }
   return { CarouslInfo, setData }
 })
-//代表作
-export const usePubliFiverYearStore = defineStore('fiverYearList', () => {
-  const FiverYears = ref([])
-  function setData() {
-    getFiverYear().then((res) => {
-      FiverYears.value = res.data
-    })
-  }
-  return { FiverYears, setData }
-})
 // 其他第一或通讯
 export const usePubliFirstStore = defineStore('publicaFirstList', () => {
   const PublicaFirst = ref([])
   function setData() {
-    getOtherFirst().then((res) => {
+    getFirst().then((res) => {
       PublicaFirst.value = res.data
+      console.log(PublicaFirst)
     })
   }
   return { PublicaFirst, setData }
@@ -47,6 +38,7 @@ export const usePubliOtherStore = defineStore('publicaOtherList', () => {
   function setData() {
     getOther().then((res) => {
       PublicaOther.value = res.data
+      console.log(PublicaOther)
     })
   }
   return { PublicaOther, setData }

@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2024-11-05 14:39:16
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-05 15:08:18
+ * @LastEditTime: 2024-11-07 19:38:43
  * @@param:
  */
 import Mock from 'mockjs'
@@ -20,10 +20,18 @@ export default defineFakeRoute([
       return Mock.mock({
         code: 0,
         data: {
-          'list|1-10': [
+          list: [
             {
-              title: '@title()',
-              url: "@image('750x270', '#4A7BF7', 'Hello')"
+              title: '植物系统基因组学与生物合成研究组',
+              url: 'https://43423.oss-cn-beijing.aliyuncs.com/img/202411071928509.jpg'
+            },
+            {
+              title: '植物系统基因组学与生物合成研究组',
+              url: 'https://43423.oss-cn-beijing.aliyuncs.com/img/202411071937263.png'
+            },
+            {
+              title: '作物基因组脱靶效应与精准编辑',
+              url: 'https://43423.oss-cn-beijing.aliyuncs.com/img/202411071937674.png'
             }
           ]
         }

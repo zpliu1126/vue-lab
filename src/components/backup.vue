@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2022-04-01 09:39:12
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-07 11:18:52
+ * @LastEditTime: 2024-11-07 19:03:05
  * @@param: 
   回到顶部按钮，增加了进度条选项
 -->
@@ -21,6 +21,7 @@
       <el-button circle style="font-size: 30">
         <!-- <i class="el-icon-caret-top"></i> -->
         <!-- <svg-icon :name="'up'" /> -->
+        <span>UP</span>
       </el-button>
     </el-progress>
   </el-backtop>
