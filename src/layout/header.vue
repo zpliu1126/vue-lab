@@ -4,14 +4,14 @@
  * @Author: zpliu
  * @Date: 2022-05-11 21:04:50
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-02 21:45:15
+ * @LastEditTime: 2024-11-07 10:38:47
  * @@param: 
 -->
 <template>
   <div class="header-wrap">
-    <div class="desktop-show">
+    <div v-if="store.isMobile" class="desktop-show">
       <el-row justify="center" align="middle">
-        <el-col :md="8" :lg="8" :xl="8">icon</el-col>
+        <el-col :md="8" :lg="8" :xl="8">图标Icon</el-col>
         <el-col :md="12" :lg="12" :xl="12" :offset="4">
           <el-menu class="el-menu-demo" mode="horizontal">
             <el-menu-item
@@ -27,13 +27,33 @@
         </el-col>
       </el-row>
     </div>
+    <div v-else class="toggle-menu">
+      <el-icon :size="30" @click="handleDrawer"><Expand /></el-icon>
+    </div>
+    <el-drawer v-model="drawer" :direction="'rtl'" :show-close="false" :size="'45%'">
+      <el-menu class="el-menu-demo" :mode="'vertical'">
+        <el-menu-item
+          @click="changeRouter(item.path)"
+          :index="item.title"
+          :key="index"
+          v-for="(item, index) in MenuList"
+          class="menu-item"
+        >
+          {{ item.title }}</el-menu-item
+        >
+      </el-menu>
+    </el-drawer>
   </div>
 </template>
 
 <script setup>
-import { ElRow, ElCol, ElMenu, ElMenuItem } from 'element-plus'
+import { ElRow, ElCol, ElMenu, ElMenuItem, ElDrawer, ElIcon } from 'element-plus'
+import { Expand } from '@element-plus/icons-vue'
+import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
+import { useWindowStore } from '@/stores/homeStore'
 const router = useRouter()
+const store = useWindowStore()
 const MenuList = [
   {
     title: '研究方向',
@@ -54,6 +74,14 @@ const MenuList = [
 ]
 function changeRouter(path) {
   router.push(path)
+}
+// const { isMobile } = storeToRefs(store)
+// window.addEventListener('resize', store.ChangeWidth)
+
+const drawer = ref(false)
+const handleDrawer = () => {
+  //点击按钮，将抽屉打开
+  drawer.value = true
 }
 </script>
 <style lang='scss' scoped>
@@ -83,5 +111,9 @@ function changeRouter(path) {
   .desktop-menu {
     position: relative;
   }
+}
+.toggle-menu {
+  text-align: right;
+  margin-right: 10px;
 }
 </style>

@@ -2,19 +2,22 @@
  * @Descripttion:
  * @version:
  * @Author: zpliu
- * @Date: 2024-11-02 09:53:34
+ * @Date: 2024-11-05 14:39:16
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-03 11:40:27
+ * @LastEditTime: 2024-11-05 15:08:18
  * @@param:
  */
-import { MockMethod } from 'vite-plugin-mock'
+import Mock from 'mockjs'
+import { defineFakeRoute } from 'vite-plugin-fake-server/client'
+// import { faker } from '@faker-js/faker'
 
-export default [
+export default defineFakeRoute([
   {
-    url: '/dist/api/carousl/info',
+    url: '/api/carousl/info',
     method: 'get',
+    statusCode: 200,
     response: () => {
-      return {
+      return Mock.mock({
         code: 0,
         data: {
           'list|1-10': [
@@ -24,7 +27,7 @@ export default [
             }
           ]
         }
-      }
+      })
     }
   }
-] as MockMethod[]
+])

@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2022-04-01 09:39:12
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-02 20:27:27
+ * @LastEditTime: 2024-11-07 11:18:52
  * @@param: 
   回到顶部按钮，增加了进度条选项
 -->
@@ -36,7 +36,14 @@ function handleScrollx() {
   let BodyHeigh = document.body.scrollHeight
   //已经完成浏览的高度：不可见高度加当前视窗高度
   let readedHeigh = document.documentElement.scrollTop + document.body.clientHeight
-  precentage.value = Number(100 * (readedHeigh / BodyHeigh - 0.5))
+  const tmpVal = Number(100 * (readedHeigh / BodyHeigh - 0.5))
+  if (tmpVal > 100) {
+    precentage.value = 100
+  } else if (tmpVal < 0) {
+    precentage.value = 0
+  } else {
+    precentage.value = tmpVal
+  }
 }
 onMounted(() => {
   // that.handleScrollx()

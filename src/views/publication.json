@@ -1,0 +1,65 @@
+{
+  "title": "近五年5篇代表作",
+  "Papter": [
+    {
+      "title": "Regulatory controls of duplicated gene expression during fiber development in allotetraploid cotton",
+      "journal": "Nat Genet",
+      "volume": "55(11):1987-1997",
+      "year": "2023",
+      "doi": "https://doi.org/10.1038/s41588-023-01530-8",
+      "firstAuthor": ["Jiaqi You", "Zhenping Liu", "Zhengyang Qi", "Yizan Ma"],
+      "correspondingAuthor": ["Lili Tu", "Xianlong Zhang", "Maojun Wang"],
+      "otherAuthor": [
+        "Mengling Sun",
+        "Ling Su",
+        "Hao Niu",
+        "Yabing Peng",
+        "Xuanxuan Luo",
+        "Mengmeng Zhu",
+        "Yuefan Huang",
+        "Xing Chang",
+        "Xiubao Hu",
+        "Yuqi Zhang",
+        "Ruizhen Pi",
+        "Yuqi Liu",
+        "Qingying Meng",
+        "Jianying Li",
+        "Qinghua Zhang",
+        "Longfu Zhu",
+        "Zhongxu Lin",
+        "Ling Min",
+        "Daojun Yuan",
+        "Corrinne E Grover",
+        "David D Fang",
+        "Keith Lindsey",
+        "Jonathan F Wendel"
+      ]
+    },
+    {
+      "title": "Cotton pan-genome retrieves the lost sequences and genes during domestication and selection",
+      "journal": "Genome Biol",
+      "volume": "22(1):92",
+      "year": "2021",
+      "doi": "https://doi.org/10.1186/s13059-021-02351-w",
+      "firstAuthor": ["Jianying Li"],
+      "correspondingAuthor": ["Shuangxia Ji", "Maojun Wang"],
+      "otherAuthor": [
+        "Daojun Yuan",
+        "Pengcheng Wang",
+        "Qiongqiong Wang",
+        "Mengling Sun",
+        "Zhenping Liu",
+        "Huan Si",
+        "Zhongping Xu",
+        "Yizan Ma",
+        "Boyang Zhang",
+        "Liuling Pei",
+        "Lili Tu",
+        "Longfu Zhu",
+        "Ling-Ling Chen",
+        "Keith Lindsey",
+        "Xianlong Zhang"
+      ]
+    }
+  ]
+}

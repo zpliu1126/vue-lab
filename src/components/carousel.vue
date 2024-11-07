@@ -4,18 +4,18 @@
  * @Author: zpliu
  * @Date: 2024-11-01 22:09:15
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-02 23:57:24
+ * @LastEditTime: 2024-11-07 11:15:06
  * @@param: 
 -->
 <template>
   <div class="block">
-    <el-carousel trigger="click" height="700px">
+    <el-carousel trigger="click" :height="CarouselHeight.height">
       <el-carousel-item v-for="item in store.CarouslInfo.list" :key="item">
         <div
           :style="{
             'background-image': 'url(' + item.url + ')',
             'background-repeat': 'no-repeat',
-            'background-size': 'cover'
+            'background-size': CarouselHeight.mode
           }"
           class="carousel-item-bg"
         >
@@ -36,33 +36,26 @@
 import { ElCarousel, ElCarouselItem, ElImage, ElButton } from 'element-plus'
 import { useCarouslStore } from '../stores/homeStore'
 import 'element-plus/es/components/carousel/style/css'
-import { onBeforeMount } from 'vue'
-import { getCarouslInfo } from '../api/carousl'
+import { onBeforeMount, computed } from 'vue'
+import { useWindowStore } from '@/stores/homeStore'
 // import { storeToRefs } from 'pinia'
 
 const store = useCarouslStore()
+const windowStore = useWindowStore()
+const CarouselHeight = computed(() => {
+  return windowStore.isMobile == 1
+    ? {
+        height: '700px',
+        mode: 'cover'
+      }
+    : {
+        height: '170px',
+        mode: 'cover'
+      }
+})
 onBeforeMount(() => {
   store.setData()
 })
-function test() {
-  getCarouslInfo().then((res) => {
-    console.log(res)
-  })
-}
-// const carouselInfo = [
-//   {
-//     title: '1111',
-//     url: 'https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg'
-//   },
-//   {
-//     title: '222',
-//     url: 'https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg'
-//   },
-//   {
-//     title: '333',
-//     url: 'https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg'
-//   }
-// ]
 </script>
 <style lang='sass' scoped>
 .block
@@ -72,7 +65,6 @@ function test() {
   color: var(--el-text-color-secondary)
 
 .carousel-item-bg
-  width: 100%
   height: 100%
 
 .carousel-wraper
@@ -89,7 +81,6 @@ function test() {
       border-radius: 8px
       padding: 20px
       max-width: 60%
-      min-width: 200px
       color: red
       text-align: center
       background-color: rgba(45, 45, 45, 0.5)

@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2024-11-01 21:45:16
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-02 21:41:26
+ * @LastEditTime: 2024-11-05 20:59:06
  * @@param:
  */
 import { createRouter, createWebHistory } from 'vue-router'
@@ -24,7 +24,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/research.vue')
+      component: () => import('../views/publication.vue')
     },
     {
       path: '/member',
