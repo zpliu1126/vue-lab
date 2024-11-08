@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2024-11-01 21:45:16
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-07 19:40:37
+ * @LastEditTime: 2024-11-08 12:06:59
  * @@param: 
 -->
 <script setup>
@@ -50,22 +50,6 @@ import { ElRow, ElCol, ElImage } from 'element-plus'
             </el-col>
           </el-row>
         </el-col>
-        <el-col :sm="24" :xs="24" :md="20" :xl="20" :lg="20" class="researchItem">
-          <h2 class="researchTitle">药用植物基原种质资源创新与新品种选育</h2>
-          <el-row justify="space-around">
-            <el-col :sm="24" :xs="24" :md="10" :xl="10" :lg="10">
-              <el-image
-                src="https://43423.oss-cn-beijing.aliyuncs.com/img/202411071917760.png"
-                :fit="'contain'"
-              ></el-image>
-            </el-col>
-            <el-col :sm="22" :xs="22" :md="10" :xl="10" :lg="10"
-              ><p class="researchText">
-                药用植物种质资源的演化大多数药用植物高度杂合，自交不亲和，遗传背景复杂。将开展大宗药用植物（苍术、黄连）品种的选育工作，构建一套基于药效物质和生物学性状的道地中药材多组学溯源体系，确保每一味药材均可追溯其纯正来源与品质和产量。主要包含收集药用植物基原种质资源、分子标记开发、基因编辑技术创制育种材料、表型鉴定和田间试验、推广应用。结合系统基因组学、分子标记辅助选择、全基因组选择、人工智能等技术手段协同改良抗病、产量、品质等性状。通过多代杂交或轮回选择和遗传测试，培育出品质纯正、产量高、抗性强的药用植物新品种/系，为人类健康与医药研究贡献植物药源。
-              </p>
-            </el-col>
-          </el-row>
-        </el-col>
       </el-row>
     </div>
   </div>
@@ -79,7 +63,7 @@ import { ElRow, ElCol, ElImage } from 'element-plus'
     text-align: center,
     background-color: #526842,
     color: white,
-    font-size: 18px,
+    font-size: 25px,
     padding: 15px 0,
     margin: 15px auto 20px
   .researchText

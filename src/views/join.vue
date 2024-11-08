@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2024-11-02 21:40:54
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-07 16:23:57
+ * @LastEditTime: 2024-11-08 12:30:19
  * @@param: 
 -->
 <!--
@@ -49,7 +49,7 @@
       <el-col :sm="22" :xs="22" :md="20" :xl="20" :lg="8" class="cantact-item">
         <div class="email">
           <SvgIcon name="email" width="30" height="30"></SvgIcon>
-          <span>: zpliu@qq.com</span>
+          <span>: jyli@mail.hzau.edu.cn</span>
         </div>
         <div class="position">
           <SvgIcon name="position" width="30" height="30"></SvgIcon>

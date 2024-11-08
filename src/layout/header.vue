@@ -4,14 +4,16 @@
  * @Author: zpliu
  * @Date: 2022-05-11 21:04:50
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-07 10:38:47
+ * @LastEditTime: 2024-11-08 12:34:34
  * @@param: 
 -->
 <template>
   <div class="header-wrap">
     <div v-if="store.isMobile" class="desktop-show">
       <el-row justify="center" align="middle">
-        <el-col :md="8" :lg="8" :xl="8">图标Icon</el-col>
+        <el-col :md="8" :lg="8" :xl="8"
+          ><SvgIcon name="rock" width="30" height="30"></SvgIcon
+        ></el-col>
         <el-col :md="12" :lg="12" :xl="12" :offset="4">
           <el-menu class="el-menu-demo" mode="horizontal">
             <el-menu-item
@@ -48,6 +50,7 @@
 
 <script setup>
 import { ElRow, ElCol, ElMenu, ElMenuItem, ElDrawer, ElIcon } from 'element-plus'
+import SvgIcon from '../components/SvgIcon.vue'
 import { Expand } from '@element-plus/icons-vue'
 import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'

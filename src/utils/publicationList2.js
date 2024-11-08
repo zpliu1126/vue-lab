@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2024-11-07 18:49:22
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-07 19:00:42
+ * @LastEditTime: 2024-11-07 22:28:45
  * @@param:
  */
 export const publictionDat2 = {
@@ -64,7 +64,7 @@ export const publictionDat2 = {
       volume: '55(11):1987-1997',
       year: '2023',
       doi: 'https://doi.org/10.1038/s41588-023-01530-8',
-      firstAuthor: ['Jaiqi You', 'Zhenping Liu', 'Zhengyang Qi', 'Yizan Ma'],
+      firstAuthor: ['Jiaqi You', 'Zhenping Liu', 'Zhengyang Qi', 'Yizan Ma'],
       correspondingAuthor: [],
       otherAuthor: ['et al.']
     },
@@ -76,7 +76,7 @@ export const publictionDat2 = {
       volume: '66:2214-2256',
       year: '2023',
       doi: 'https://doi.org/10.1007/s11427-022-2278-0',
-      firstAuthor: ['Jaiqi You', 'Zhenping Liu', 'Zhengyang Qi', 'Yizan Ma'],
+      firstAuthor: ['Jiaqi You', 'Zhenping Liu', 'Zhengyang Qi', 'Yizan Ma'],
       correspondingAuthor: [],
       otherAuthor: ['et al.']
     },
