@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2024-11-01 22:09:15
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-07 19:30:52
+ * @LastEditTime: 2024-11-11 19:31:28
  * @@param: 
 -->
 <template>
@@ -20,7 +20,7 @@
           class="carousel-item-bg"
         >
           <div class="carousel-wraper">
-            <div class="carousel-title" @click="test">
+            <div class="carousel-title">
               <h3 class="carousel-content">
                 {{ item.title }}
               </h3>
@@ -68,6 +68,8 @@ onBeforeMount(() => {
   height: 100%
 
 .carousel-wraper
+  z-index: 10000
+  background-color: rgba(0, 0, 0, 0.2)
   height: 100%
   position: relative
   .carousel-title
@@ -79,7 +81,7 @@ onBeforeMount(() => {
     position: relative
     .carousel-content
       border-radius: 8px
-      padding: 20px
+      padding: 10px
       max-width: 60%
       color: white
       font-size: 25px

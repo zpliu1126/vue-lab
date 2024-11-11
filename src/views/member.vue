@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2024-11-02 21:40:48
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-08 12:29:46
+ * @LastEditTime: 2024-11-11 19:34:49
  * @@param: 
 -->
 <!--
@@ -31,15 +31,14 @@
         ></el-image>
         <div class="teacher-info-item">
           <p>姓名: 李健英</p>
-          <p>职务: 教授</p>
-          <p>联系方式: XXX@hzau.mail</p>
+          <p>联系方式: jyli@mail.hzau.edu.cn</p>
         </div>
       </el-col>
       <el-col :sm="22" :xs="22" :md="22" :xl="6" :lg="6" class="teacher-info">
         <div class="teacher-introduction">
           <h2>个人简介</h2>
           <p>
-            主要从事植物分子遗传学与基因组学研究。研究组利用演化生物学、系统基因组学、分子生物学、化学生态学、合成生物学等多学科交叉，聚焦在经济作物和药用植物种质资源创新和合成生物学的科学研究框架，揭示驯化作物和引种植物响应环境变化的适应性机制。通过创新种质优化药用植物有效物质含量，有效成分合成通路解析和生产高附加值有效物质。研究成果以第一或通讯作者发表在Nature
+            主要从事植物分子遗传学与基因组学研究。研究组利用演化生物学、系统基因组学、分子生物学、化学生态学、合成生物学等多学科交叉，聚焦在经济作物和药用植物种质资源创新和合成生物学的科学研究框架，揭示驯化作物和引种植物响应环境变化的适应性机制。研究成果以第一或通讯作者发表在Nature
             Genetics (2022, 2024), Genome Biology (2021), Molecular Biology & Evolution (2021),
             Plant Biotechnology Journal (2016, 2019a, 2019b), BMC Biology (2024)等国际知名期刊。
           </p>
