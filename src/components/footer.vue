@@ -79,7 +79,7 @@ const isMobileClass = computed(() => {
 
 <style lang='scss' scoped>
 .el-footer-desktop {
-  background-image: url('https://43423.oss-cn-beijing.aliyuncs.com/img/202411071918680.jpg');
+  background-image: url('https://s21.ax1x.com/2025/01/16/pEFWBut.jpg');
   width: 100%;
   min-height: 25vh;
   padding: 0px 0px;
@@ -90,7 +90,7 @@ const isMobileClass = computed(() => {
 }
 
 .el-footer-mobile {
-  background-image: url('https://43423.oss-cn-beijing.aliyuncs.com/img/202411071918680.jpg');
+  background-image: url('https://s21.ax1x.com/2025/01/16/pEFWBut.jpg');
   width: 100%;
   min-height: 50vh;
   padding: 0px 0px;
