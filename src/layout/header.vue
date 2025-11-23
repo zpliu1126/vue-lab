@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2022-05-11 21:04:50
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-11 19:34:07
+ * @LastEditTime: 2025-01-15 19:26:01
  * @@param: 
 -->
 <template>
@@ -13,7 +13,7 @@
       <el-row justify="center" align="middle">
         <el-col :md="10" :lg="10" :xl="10">
           <!-- <SvgIcon name="rock" width="30" height="30"></SvgIcon> -->
-          <span id="group-name">Plant phylogenomics and evolution team</span>
+          <span id="group-name">Plant phylogenomics and biosynthesis</span>
         </el-col>
         <el-col :md="12" :lg="12" :xl="12" :offset="1">
           <el-menu class="el-menu-demo" mode="horizontal">

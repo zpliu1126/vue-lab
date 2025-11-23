@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2024-11-07 18:43:44
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-07 18:49:07
+ * @LastEditTime: 2025-01-15 19:39:41
  * @@param:
  */
 export const publictionDat1 = {
@@ -12,7 +12,7 @@ export const publictionDat1 = {
     {
       title: 'Convergence and divergence of diploid and tetraploid cotton genomes',
       journal: 'Nature Genetics',
-      volume: '',
+      volume: ' 56(11):2562-2573',
       year: '2024',
       doi: 'https://doi.org/10.1038/s41588-024-01964-8',
       firstAuthor: ['Jianying Li', 'Zhenping Liu', 'Chunyuan You'],

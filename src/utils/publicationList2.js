@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2024-11-07 18:49:22
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-07 22:28:45
+ * @LastEditTime: 2025-01-15 19:40:38
  * @@param:
  */
 export const publictionDat2 = {
@@ -17,8 +17,8 @@ export const publictionDat2 = {
       year: '2024',
       doi: 'https://doi.org/10.1038/10.1093/plcell/koae068',
       firstAuthor: ['Guannan Zhao'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -29,8 +29,8 @@ export const publictionDat2 = {
       year: '2023',
       doi: 'https://doi.org/10.1016/j.jgg.2023.05.004',
       firstAuthor: ['Yuefan Huang'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -41,8 +41,8 @@ export const publictionDat2 = {
       year: '2023',
       doi: 'https://doi.org/10.1016/j.xplc.2023.100722',
       firstAuthor: ['Xing Chang'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -53,8 +53,8 @@ export const publictionDat2 = {
       year: '2023',
       doi: 'https://doi.org/10.1002/advs.202306157',
       firstAuthor: ['Lin Sun', 'Muna Alariqi'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -64,9 +64,9 @@ export const publictionDat2 = {
       volume: '55(11):1987-1997',
       year: '2023',
       doi: 'https://doi.org/10.1038/s41588-023-01530-8',
-      firstAuthor: ['Jiaqi You', 'Zhenping Liu', 'Zhengyang Qi', 'Yizan Ma'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      firstAuthor: ['Jaiqi You', 'Zhenping Liu', 'Zhengyang Qi', 'Yizan Ma'],
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -76,9 +76,16 @@ export const publictionDat2 = {
       volume: '66:2214-2256',
       year: '2023',
       doi: 'https://doi.org/10.1007/s11427-022-2278-0',
-      firstAuthor: ['Jiaqi You', 'Zhenping Liu', 'Zhengyang Qi', 'Yizan Ma'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      firstAuthor: [
+        'Xingpeng Wen',
+        'Zhiwen Chen',
+        'Zuoren Yang',
+        'Maojun Wang',
+        'Shuangxia Jin',
+        'Guangda Wang'
+      ],
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -89,8 +96,8 @@ export const publictionDat2 = {
       year: '2022',
       doi: 'https://doi.org/10.3389/fpls.2022.784511',
       firstAuthor: ['Jie Zhang'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -101,8 +108,8 @@ export const publictionDat2 = {
       year: '2022',
       doi: 'https://doi.org/10.1038/s42003-022-03022-7',
       firstAuthor: ['Maojun Wang'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -113,8 +120,8 @@ export const publictionDat2 = {
       year: '2022',
       doi: 'https://doi.org/10.1186/s13059-022-02616-y',
       firstAuthor: ['Liuling Pei', 'Xianhui Huang'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -125,8 +132,8 @@ export const publictionDat2 = {
       year: '2021',
       doi: 'https://doi.org/10.1002/advs.202002723',
       firstAuthor: ['Shiming Liu'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -137,8 +144,8 @@ export const publictionDat2 = {
       year: '2019',
       doi: 'https://doi.org/10.1038/s41588-018-0282-x',
       firstAuthor: ['Maojun Wang', 'Lili Tu', 'Daojun Yuan'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -148,8 +155,8 @@ export const publictionDat2 = {
       year: '2018',
       doi: 'https://doi.org/10.1038/s41477-017-0096-3',
       firstAuthor: ['Maojun Wang'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -160,8 +167,8 @@ export const publictionDat2 = {
       year: '2020',
       doi: 'https://doi.org/10.1111/pbi.13168',
       firstAuthor: ['Lei Qin'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -172,8 +179,8 @@ export const publictionDat2 = {
       year: '2020',
       doi: 'https://doi.org/10.1111/pbi.13417',
       firstAuthor: ['Qiongqiong Wang', 'Muna Alariqi'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -184,8 +191,8 @@ export const publictionDat2 = {
       year: '2020',
       doi: 'https://doi.org/10.1016/j.cj.2019.12.007',
       firstAuthor: ['Huan Si'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -195,8 +202,8 @@ export const publictionDat2 = {
       year: '2019',
       doi: 'https://doi.org/10.1186/s12870-019-1923-7',
       firstAuthor: ['Liuling Pei'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -207,8 +214,8 @@ export const publictionDat2 = {
       year: '2018',
       doi: 'https://doi.org/10.1111/nph.14762',
       firstAuthor: ['Maojun Wang', 'Pengcheng Wang'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -219,8 +226,8 @@ export const publictionDat2 = {
       year: '2018',
       doi: 'https://doi.org/10.1016/j.cj.2018.05.002',
       firstAuthor: ['Lin Sun'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -231,8 +238,8 @@ export const publictionDat2 = {
       year: '2018',
       doi: 'https://doi.org/10.1186/s12870-018-1367-5',
       firstAuthor: ['Heng Sun'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -243,8 +250,8 @@ export const publictionDat2 = {
       year: '2017',
       doi: 'https://doi.org/10.1038/ng.3807',
       firstAuthor: ['Maojun Wang'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -255,8 +262,8 @@ export const publictionDat2 = {
       year: '2017',
       doi: 'https://doi.org/10.1111/nph.14636',
       firstAuthor: ['Jing Luo', 'Sijia Liang'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -267,8 +274,8 @@ export const publictionDat2 = {
       year: '2018',
       doi: 'https://doi.org/10.1093/jxb/erx475',
       firstAuthor: ['Jing Luo', 'Sijia Liang'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -279,8 +286,8 @@ export const publictionDat2 = {
       year: '2018',
       doi: 'https://doi.org/10.15302/J-FASE-2018223',
       firstAuthor: ['Lizhen Zhu'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -291,8 +298,8 @@ export const publictionDat2 = {
       year: '2017',
       doi: 'https://doi.org/10.1093/pcp/pcx148',
       firstAuthor: ['Heng Sun'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -303,8 +310,8 @@ export const publictionDat2 = {
       year: '2016',
       doi: 'https://doi.org/10.1038/srep35040',
       firstAuthor: ['Chengzhen Liang'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     },
 
     {
@@ -314,8 +321,8 @@ export const publictionDat2 = {
       year: '2018',
       doi: 'https://doi.org/10.1016/j.plaphy.2017.12.012',
       firstAuthor: ['Hakim'],
-      correspondingAuthor: [],
-      otherAuthor: ['et al.']
+      correspondingAuthor: [''],
+      otherAuthor: ['et al.,']
     }
   ]
 }

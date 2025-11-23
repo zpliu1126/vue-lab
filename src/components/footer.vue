@@ -25,7 +25,7 @@ const isMobileClass = computed(() => {
 
 <template>
   <el-container :class="isMobileClass">
-    <el-row justify="center" align="top">
+    <el-row justify="center" align="middle">
       <el-col :xs="12" :sm="12" :md="3" :lg="3">
         <div class="footer-info">
           <a href="https://orcid.org/0000-0002-9825-672X" target="_blank">
@@ -64,8 +64,12 @@ const isMobileClass = computed(() => {
           <p>027-87283955</p>
         </div>
       </el-col>
-      <el-col :span="24" class="right-info">
+      <!-- <el-col :span="24" class="right-info">
         <strong>Copyright © {{ currentYear }} | All rights reserved</strong>
+      </el-col> -->
+      <el-col :span="24" class="right-info">
+        <span>本网站由</span><img src="@/assets/figureBed_logo1.png" width="50" height="50"
+          alt=""><span>提供CDS加速/云存储服务</span>
       </el-col>
     </el-row>
   </el-container>
@@ -79,44 +83,57 @@ const isMobileClass = computed(() => {
   width: 100%;
   min-height: 25vh;
   padding: 0px 0px;
+
   .el-row {
     width: 100%;
   }
 }
+
 .el-footer-mobile {
   background-image: url('https://43423.oss-cn-beijing.aliyuncs.com/img/202411071918680.jpg');
   width: 100%;
   min-height: 50vh;
   padding: 0px 0px;
+
   .el-row {
     width: 100%;
   }
 }
+
 .footer-info {
   margin-top: 10px;
   text-align: center;
 }
+
 .contact_info {
   line-height: 2;
   text-align: start;
+
   .contact_localtion {
     font-size: 18px;
   }
+
   .contact_email,
   .contact_tel {
     font-size: 14px;
     font-style: italic;
   }
 }
+
 .right-info {
+  display: flex;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
+
 a {
   text-decoration: none;
   color: grey;
   transition: 0.4s;
   padding: 3px;
 }
+
 a:hover {
   text-decoration: none;
   background-color: transparent;
