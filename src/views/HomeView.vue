@@ -22,7 +22,8 @@ import { ElRow, ElCol, ElImage } from 'element-plus'
           <h2 class="researchTitle">菊科药用植物次生代谢演化生物学</h2>
           <el-row justify="space-around">
             <el-col :sm="24" :xs="24" :md="10" :xl="10" :lg="10">
-              <el-image src="https://s21.ax1x.com/2025/11/21/pZFLOw8.png" :fit="'contain'"></el-image>
+              <el-image src="http://lilab.test.upcdn.net/lilab/cdf80b61-abfb-40aa-b8da-872211afc5b7.png" :fit="'contain'"></el-image>
+              <!-- <el-image src="https://s21.ax1x.com/2025/11/21/pZFLOw8.png" :fit="'contain'"></el-image> -->
             </el-col>
             <el-col :sm="22" :xs="22" :md="10" :xl="10" :lg="10">
               <p class="researchText">
@@ -40,7 +41,8 @@ import { ElRow, ElCol, ElImage } from 'element-plus'
               </p>
             </el-col>
             <el-col :sm="24" :xs="24" :md="10" :xl="10" :lg="10">
-              <el-image src="https://s21.ax1x.com/2025/11/21/pZFLXTS.png" :fit="'contain'"></el-image>
+              <!-- <el-image src="https://s21.ax1x.com/2025/11/21/pZFLXTS.png" :fit="'contain'"></el-image> -->
+              <el-image src="http://lilab.test.upcdn.net/lilab/961c4a8e-a471-41d1-a892-f42b632020e4.png" :fit="'contain'"></el-image>
             </el-col>
           </el-row>
         </el-col>
@@ -48,7 +50,8 @@ import { ElRow, ElCol, ElImage } from 'element-plus'
           <h2 class="researchTitle">药用植物基原种质资源创新</h2>
           <el-row justify="space-around">
             <el-col :sm="24" :xs="24" :md="10" :xl="10" :lg="10">
-              <el-image src="https://s21.ax1x.com/2025/01/15/pEFuub4.png" :fit="'contain'"></el-image>
+              <!-- <el-image src="https://s21.ax1x.com/2025/01/15/pEFuub4.png" :fit="'contain'"></el-image> -->
+              <el-image src="http://lilab.test.upcdn.net/lilab/872a9a8f-278a-4d9a-8f3f-45b4c5476238.png" :fit="'contain'"></el-image>
             </el-col>
             <el-col :sm="22" :xs="22" :md="10" :xl="10" :lg="10">
               <p class="researchText">

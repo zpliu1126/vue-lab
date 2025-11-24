@@ -68,8 +68,8 @@ const isMobileClass = computed(() => {
         <strong>Copyright © {{ currentYear }} | All rights reserved</strong>
       </el-col> -->
       <el-col :span="24" class="right-info">
-        <span>本网站由</span><img src="@/assets/figureBed_logo1.png" width="50" height="50"
-          alt=""><span>提供CDS加速/云存储服务</span>
+        <span>本网站由</span><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank"><img
+            src="@/assets/figureBed_logo1.png" width="50" height="50"></a><span>提供CDS加速/云存储服务</span>
       </el-col>
     </el-row>
   </el-container>

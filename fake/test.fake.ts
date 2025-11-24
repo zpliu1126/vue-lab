@@ -27,19 +27,19 @@ export default defineFakeRoute([
             // },
             {
               title: '植物再生的表观遗传学研究',
-              url: 'https://s21.ax1x.com/2025/01/15/pEFul5R.png'
+              url: 'http://lilab.test.upcdn.net/lilab/pEFul5R.png'
             },
             {
               title: '作物基因组脱靶效应与精准编辑',
-              url: 'https://s21.ax1x.com/2025/01/15/pEFuJxK.png'
+              url: 'http://lilab.test.upcdn.net/lilab/pEFuJxK.png'
             },
             {
               title: '作物半野生种-栽培种渐渗图谱',
-              url: 'https://s21.ax1x.com/2025/01/15/pEFu88x.jpg'
+              url: 'http://lilab.test.upcdn.net/lilab/pEFu88x.jpg'
             },
             {
               title: '转座子驱动的棉属基因组大小变异',
-              url: 'https://s21.ax1x.com/2025/01/15/pEFuG26.png'
+              url: 'http://lilab.test.upcdn.net/lilab/pEFuG26.png'
             },
             // {
             //   title: '二倍体和四倍体棉花基因组演化',

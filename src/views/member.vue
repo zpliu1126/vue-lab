@@ -24,7 +24,7 @@
         <h1>课题组长简介</h1>
       </el-col>
       <el-col :sm="22" :xs="22" :md="22" :xl="3" :lg="3" class="teacher-info">
-        <el-image src="https://s21.ax1x.com/2025/01/15/pEFuMVJ.jpg" :fit="'contain'"
+        <el-image src="http://lilab.test.upcdn.net/lilab/b6d2c7fd-3bea-4dd7-8f4f-2aff40ae8d7d.png" :fit="'contain'"
           class="teacher-info-img"></el-image>
         <div class="teacher-info-item">
           <p>姓名: 李健英</p>
@@ -68,7 +68,7 @@
 
       <el-col class="Information" :sm="22" :xs="22" :md="22" :xl="5" :lg="10">
         <div style="position: relative" class="people-info">
-          <el-image src="https://s21.ax1x.com/2025/11/23/pZkr78J.png" fit="cover" class="avatar-img"> </el-image>
+          <el-image src="http://lilab.test.upcdn.net/lilab/zhujuan.png" fit="cover" class="avatar-img"> </el-image>
 
           <div class="people-name">
             <div>
@@ -82,7 +82,7 @@
       </el-col>
       <el-col class="Information" :sm="22" :xs="22" :md="22" :xl="5" :lg="10">
         <div style="position: relative" class="people-info">
-          <el-image src="https://s21.ax1x.com/2025/11/23/pZkr5UU.png" fit="cover" class="avatar-img"> </el-image>
+          <el-image src="http://lilab.test.upcdn.net/lilab/liuluying.png" fit="cover" class="avatar-img"> </el-image>
 
           <div class="people-name">
             <div>
@@ -96,7 +96,7 @@
       </el-col>
       <el-col class="Information" :sm="22" :xs="22" :md="22" :xl="5" :lg="10">
         <div style="position: relative" class="people-info">
-          <el-image src="https://s21.ax1x.com/2025/11/23/pZkrWD0.png" fit="cover" class="avatar-img"> </el-image>
+          <el-image src="http://lilab.test.upcdn.net/lilab/wangxuqing.png" fit="cover" class="avatar-img"> </el-image>
 
           <div class="people-name">
             <div>
@@ -115,7 +115,7 @@
       </el-col>
       <el-col class="Information" :sm="22" :xs="22" :md="22" :xl="5" :lg="10">
         <div style="position: relative" class="people-info">
-          <el-image src="https://s21.ax1x.com/2025/11/23/pZkrRuq.png" fit="cover" class="avatar-img"> </el-image>
+          <el-image src="http://lilab.test.upcdn.net/lilab/chenziyao.png" fit="cover" class="avatar-img"> </el-image>
 
           <div class="people-name">
             <div>
@@ -129,7 +129,7 @@
       </el-col>
       <el-col class="Information" :sm="22" :xs="22" :md="22" :xl="5" :lg="10">
         <div style="position: relative" class="people-info">
-          <el-image src="https://s21.ax1x.com/2025/11/23/pZkrfbV.png" fit="cover" class="avatar-img"> </el-image>
+          <el-image src="http://lilab.test.upcdn.net/lilab/shiming.png" fit="cover" class="avatar-img"> </el-image>
 
           <div class="people-name">
             <div>
@@ -143,7 +143,7 @@
       </el-col>
       <el-col class="Information" :sm="22" :xs="22" :md="22" :xl="5" :lg="10">
         <div style="position: relative" class="people-info">
-          <el-image src="https://s21.ax1x.com/2025/11/23/pZkrH29.png" fit="cover" class="avatar-img"> </el-image>
+          <el-image src="http://lilab.test.upcdn.net/lilab/yuzhou.png" fit="cover" class="avatar-img"> </el-image>
 
           <div class="people-name">
             <div>
@@ -157,7 +157,7 @@
       </el-col>
       <el-col class="Information" :sm="22" :xs="22" :md="22" :xl="5" :lg="10">
         <div style="position: relative" class="people-info">
-          <el-image src="https://s21.ax1x.com/2025/11/23/pZkr4ET.png" fit="cover" class="avatar-img"> </el-image>
+          <el-image src="http://lilab.test.upcdn.net/lilab/qinchenglei.png" fit="cover" class="avatar-img"> </el-image>
 
           <div class="people-name">
             <div>
@@ -176,7 +176,7 @@
       </el-col>
       <el-col class="Information" :sm="22" :xs="22" :md="22" :xl="5" :lg="10">
         <div style="position: relative" class="people-info">
-          <el-image src="https://s21.ax1x.com/2025/11/23/pZkrbvR.png" fit="cover" class="avatar-img"> </el-image>
+          <el-image src="http://lilab.test.upcdn.net/lilab/zhuxianqi.png" fit="cover" class="avatar-img"> </el-image>
 
           <div class="people-name">
             <div>
@@ -190,7 +190,7 @@
       </el-col>
       <el-col class="Information" :sm="22" :xs="22" :md="22" :xl="5" :lg="10">
         <div style="position: relative" class="people-info">
-          <el-image src="https://dummyimage.com/300x400" fit="cover" class="avatar-img"> </el-image>
+          <el-image src="http://lilab.test.upcdn.net/lilab/YinXingzhu.png" fit="cover" class="avatar-img"> </el-image>
 
           <div class="people-name">
             <div>
